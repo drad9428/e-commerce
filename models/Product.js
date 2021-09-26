@@ -1,7 +1,5 @@
 // import important parts of sequelize library
 const { Model, DataTypes, INTEGER, STRING, DECIMAL } = require('sequelize');
-const { strictLeft } = require('sequelize/types/lib/operators');
-const { canTreatArrayAsAnd } = require('sequelize/types/lib/utils');
 // import our database connection from config.js
 const sequelize = require('../config/connection');
 
